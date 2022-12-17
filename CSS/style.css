@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    background-position: 100vh;
+    width: 100%;
+
+    opacity: 0.5;
+}
