@@ -11,6 +11,10 @@ box-sizing: border-box;
     background-color: black;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .navbar ul{
     display: flex;
     list-style: none;
@@ -112,7 +116,7 @@ color: rgb(240, 243, 245);
 }
 
 #pic img{
-    width: 575px;
+    width: 450px;
     height: 400px ;
     border: solid;
     border-radius: 40px;
@@ -160,6 +164,7 @@ box-sizing: border-box;
     width: 360px;
     height: 240px;
     margin: 10px;
+    border: solid grey;
   }
 
   #contact{
@@ -169,7 +174,6 @@ box-sizing: border-box;
     margin-top: 1px;
     background-color: black;
     color: white;
-    border-style: groove;
   }
  
   .form{
