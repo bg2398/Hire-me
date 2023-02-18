@@ -20,5 +20,10 @@ WHEN I click on the images of the applications
 WHEN I resize the page or view the site on various screens and devices
 * THEN I am presented with a responsive layout that adapts to my viewport
 
-## license
-N/A
+## Portfolio page Mock-up
+
+![17F7801B-A5A4-4F7A-A7A1-5FC8529181C0](https://user-images.githubusercontent.com/117424603/219828465-5b790e45-c63e-4530-9101-5d7ccfd6b372.jpeg)
+
+
+## Link to site
+https://bg2398.github.io/Hire-me/
