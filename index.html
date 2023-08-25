@@ -4,14 +4,14 @@
     <title>Brandon's Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" media="screen and (max-width:800px)" href="./assets/tablet.css">
-    <link rel="stylesheet" media="screen and(max-width:530px" href="./assets/phone.css">
+    <link rel="stylesheet" media="screen and(max-width:530px)" href="./assets/phone.css">
 </head>
 <body>
    <nav class="navbar">
         <ul>
              <li><a href="#home">Home</a></li>
              <li><a href="#about">About Me</a></li>
-             <li><a href="#work">Work</a></li>
+             <li><a href="#work">My Projects</a></li>
              <li><a href="#contact">Contact Me</a></li>
         </ul>
  </nav>
@@ -29,9 +29,13 @@
             <img src="./assets/bg.jpeg" alt="Picture of Brandon"> 
            <div id="intro">
             <h2>Brandon Guerrero</h2>
-            <p> Welcome to my portfolio, I am currently studying at UW to become a full stack developer<br>
-                Here is my github for all my latest projects, <a href="https://github.com/bg2398">GitHub</a>
-            </p>
+            <p1> Welcome to my portfolio, I'm a highly motivated full stack developer from the University of Washington</p1> <br> 
+            <p2>My objective is to be given the oppurtunity to showcase my passion for coding, I'm an exellent team player  and ready for any chasllenge </p2> <br>
+            <p3>My technical skills are the following: Javascript, Node.js, React.js, Express.js, NPM, Jest, CSS, HTML, MySQL, MongoDB, GraphQL, NoSQL, <br>
+                Sequelize.js
+            </p3>
+          
+            
            </div>
         </div>
         </section>
@@ -39,31 +43,61 @@
         <section id="work">
             <h1 class="headings">My Work</h1>
             <div id="intro">
-         <h2>Here are three of the projects I have created with collegues
-            <br> The rest are placeholders for future projects<br> You can find my up to date projects on my github link</h2>
-            <div class="gallery">
-                <a href="./https://jacksonmaltby.github.io/where-wolf/">
-                <img src="./assets/Image 2-16-23 at 7.21 PM.jpg"></a>
-              <a href="https://blogsphere.herokuapp.com/login">
-                <img src="./assets/Image 4-18-23 at 5.21 PM.jpg"></a>
-                <a href="https://salty-spire-29612.herokuapp.com/">
-                    <img src="./assets/Screenshot 2023-06-13 at 6.14.00 PM.png">
-                </a>
+                <h2>Here are some of my projects I have created with live URLs while my Database projects can be found in my Github link below!</h2>
+                <div class="gallery">
+                  <figure>
+                    <a href="https://bg2398.github.io/Whats-the-weather-today/">
+                      <img src="./assets/Image 8-24-23 at 8.07 PM.jpg" alt="Project 1">
+                    </a>
+                    <figcaption>A 5 day weather app with an implemented search bar that <br>
+                        displays live weather using an implemneted api key.
+                    </figcaption>
+                  </figure>
+                  
+                  <figure>
+                    <a href="https://blogsphere.herokuapp.com/login">
+                      <img src="./assets/BlogSphere.jpg" alt="Project 2">
+                    </a>
+                    <figcaption>A blogpost website where users can create an account and <br>
+                        interact with other users by viweing a live feed of blogs, <br>
+                        as a user you can also comment on other users blog posts!
+                    </figcaption>
+                  </figure>
+                  
+                  <figure>
+                    <a href="https://brandonsgym.netlify.app/">
+                      <img src="./assets/Image 8-24-23 at 8.12 PM.jpg" alt="Project 3">
+                    </a>
+                    <figcaption>This is a gym app made for users who are new to the  <br>
+                    gym world. This app lets you choose the muscle type by searching <br>
+                    or browsing through the categories. The app has implememnted demos <br>
+                    that show you how the exercise is done or you can simply click <br>
+                    on the exercise link which will take you to a youtube video.
+                    </figcaption>
+                  </figure>
+                  
+                  <figure>
+                    <a href="https://bg2398.github.io/Stay-protected-4-life/">
+                      <img src="./assets/password.jpg" alt="Project 4">
+                    </a>
+                    <figcaption>This is a user prompt site that will ask the user password <br>
+                    type questions such as lenght of password, do they want special characters, <br>
+                    numbers, caps/lowercase, and at the end the app will have generated <br>
+                    a randomized secure anti-hack password ready to copy and paste. 
+                     </figcaption>
+                  </figure>
+                </div>
                 
-            </div>
-            </div>
         </section>
         
           <section id="contact">
-          <h1 class="headings">Contact</h1>
-          <h2>Open the console log to see your submission!</h2>
-        <form action="brandon_g909@yahoo.com" class="form">
-            <input type="text" name="name" class="input" id="name-input" placeholder="Enter Your Name">
-            <input type="email" name="email" class="input" id="email-input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg-input" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-            <input type="submit" value="Send" id="submit-btn">
-            
-        </form>
+          <h1 class="headings">My contact Information</h1>
+          
+          <h2>Email: brandon_g909@yahoo.com</h2> <br> 
+          <h2>Phone: 253-347-7685</h2> <br>
+          <h2>GitHub: <a href="https://github.com/bg2398" class="github-button">GitHub Profile</a> </h2> <br>
+          <h2>LinkedIn: <a href="https://www.linkedin.com/in/brandon-guerrero-783161156" class="LinkedIn-Btn">LinkedIn Profile</a> </h2>
+       
           </section>
           
 <script src="./assets/index.js"></script>

@@ -123,6 +123,7 @@ color: rgb(240, 243, 245);
 }
 
 #intro{
+  font-size:large;
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -136,11 +137,13 @@ margin-bottom: 20px;
 
 #intro p{
     text-align: center;
-    font-size: larger;
-    font-family: cursive;
+    color: red;
+    font-size:x-large;
+    font-family:'Times New Roman', Times, serif;
     /* border-style: double; */
     /* border-color: red; */
 }
+
 
   #work{
     margin-top: -49px;
@@ -176,6 +179,10 @@ box-sizing: border-box;
     color: white;
   }
  
+#contact h2 {
+  text-align: center;
+}
+
   .form{
     display: flex;
     flex-direction: column;
@@ -212,3 +219,24 @@ box-sizing: border-box;
     cursor: pointer;
     box-shadow:0 0 10px white ;
   }
+
+ .github-button, .LinkedIn-Btn {
+  color: white;
+ }
+
+ .github-button:hover {
+  background-color: black;
+  color: rgb(177, 4, 4);
+  border-color: black;
+
+ }
+
+ .LinkedIn-Btn {
+ color: white;
+ }
+
+ .LinkedIn-Btn:hover {
+  background-color: black;
+  color: rgb(177, 4, 4);
+  border-color: black;
+ }
